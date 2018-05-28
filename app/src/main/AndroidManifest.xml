@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.user.mybiriyani">
-<uses-permission
 
-    android:name="android.permission.INTERNET">
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
 
-</uses-permission>
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -25,7 +23,8 @@
         <activity android:name=".zCart" />
         <activity android:name=".RegisterActivity" />
         <activity android:name=".Mutton" />
-        <activity android:name=".Prawn"></activity>
+        <activity android:name=".Prawn" />
+        <activity android:name=".Nampass"></activity>
     </application>
 
 </manifest>

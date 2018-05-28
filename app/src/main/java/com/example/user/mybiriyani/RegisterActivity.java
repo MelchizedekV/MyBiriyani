@@ -20,12 +20,9 @@ import com.google.firebase.auth.FirebaseAuth;
 
 public class RegisterActivity extends AppCompatActivity {
 
-    public static final String FILE="file";
-    public static final String DISPLAY_NAME="userName";
-    public static final String ADD_NAME="addName";
 
-    private AutoCompleteTextView myUserNameView;
-    private AutoCompleteTextView myAddr;
+
+
     private EditText myEmail;
     private EditText myPassword;
     private EditText myPasswordconfirm;
@@ -38,8 +35,7 @@ public class RegisterActivity extends AppCompatActivity {
 
         myAuth=FirebaseAuth.getInstance();
 
-        myUserNameView=(AutoCompleteTextView)findViewById(R.id.Register_username);
-        myAddr=(AutoCompleteTextView)findViewById(R.id.Address);
+
         myEmail=(EditText) findViewById(R.id.Register_email);
         myPassword=(EditText) findViewById(R.id.Register_password);
         myPasswordconfirm=(EditText) findViewById(R.id.Register_confirm_password);
@@ -132,7 +128,6 @@ public class RegisterActivity extends AppCompatActivity {
                 }
                 else
                 {
-                    SavedUserName();
                     ToastMsg("Registration was successfull");
                     Intent i=new Intent(RegisterActivity.this,LoginActivity.class);
                     finish();
@@ -155,17 +150,7 @@ public class RegisterActivity extends AppCompatActivity {
                 .show();
     }
 
-    private void SavedUserName()
-    {
-        String userName=myUserNameView.getText().toString();
-        String aname=myAddr.getText().toString();
-        SharedPreferences sharedPreferences=getSharedPreferences(FILE,0);
-        //sharedPreferences.edit().putString(DISPLAY_NAME,userName).apply();
-        SharedPreferences.Editor editor=sharedPreferences.edit();
-editor.putString(DISPLAY_NAME,userName);
-editor.putString(ADD_NAME,aname);
-editor.apply();
-    }
+
     public void ToastMsg(String toastMessage)
 
     {

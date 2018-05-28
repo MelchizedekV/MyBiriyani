@@ -38,7 +38,7 @@ public class LoginActivity extends AppCompatActivity {
 
         if (myAuth.getCurrentUser() != null) {
 
-            startActivity(new Intent(LoginActivity.this,Category.class));
+            startActivity(new Intent(LoginActivity.this,Nampass.class));
             finish();
 
         } else {
@@ -77,7 +77,7 @@ public class LoginActivity extends AppCompatActivity {
 
             // Successfully signed in
             if (resultCode == RESULT_OK) {
-                startActivity(new Intent(LoginActivity.this,Category.class));
+                startActivity(new Intent(LoginActivity.this,Nampass.class));
                 finish();
             } else {
                 // Sign in failed
@@ -134,7 +134,7 @@ public class LoginActivity extends AppCompatActivity {
 
                 else {
                     Log.i("DEBUG","Reached");
-                    Intent intent = new Intent(LoginActivity.this, Category.class);
+                    Intent intent = new Intent(LoginActivity.this, Nampass.class);
                     finish();
                     startActivity(intent);
                     Log.i("DEBUG","Launched");

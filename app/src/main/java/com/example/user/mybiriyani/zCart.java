@@ -64,9 +64,9 @@ Firebase firebase;
 
         //display name
 
-        SharedPreferences prefs = getSharedPreferences(RegisterActivity.FILE, MODE_PRIVATE);
-        myUserName = prefs.getString(RegisterActivity.DISPLAY_NAME, null);
-        Adr= prefs.getString(RegisterActivity.ADD_NAME, null);
+        SharedPreferences prefs = getSharedPreferences(Nampass.FILE, MODE_PRIVATE);
+        myUserName = prefs.getString(Nampass.DISPLAY_NAME, null);
+        Adr= prefs.getString(Nampass.ADD_NAME, null);
 
 na.setText(String.valueOf(myUserName));
         ad.setText(String.valueOf(Adr));
