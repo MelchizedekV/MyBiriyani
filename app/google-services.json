@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "144719064245",
+    "firebase_url": "https://mybiriyani-39064.firebaseio.com",
+    "project_id": "mybiriyani-39064",
+    "storage_bucket": "mybiriyani-39064.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:144719064245:android:8b1f15bb5e95bea1",
+        "android_client_info": {
+          "package_name": "com.example.user.mybiriyani"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "144719064245-qe89jld1213bgoug9qdk6496je3dv26d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.user.mybiriyani",
+            "certificate_hash": "77cfd6d0c6053d1e6e2b74a8542bb1dc9f35770f"
+          }
+        },
+        {
+          "client_id": "144719064245-g014jleo04ghairh4e8n3fd72vjb1nhk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhX0g4FGyimN8vJt85rEPgfT6T--WhyLI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "144719064245-g014jleo04ghairh4e8n3fd72vjb1nhk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

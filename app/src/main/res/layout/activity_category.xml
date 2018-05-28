@@ -1,0 +1,67 @@
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+
+    >
+
+
+    <ImageButton
+        android:id="@+id/chicken"
+        android:layout_width="170dp"
+        android:layout_height="111dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+
+        android:src="@drawable/chickensss" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+
+        android:text="CHICKEN "
+        android:textColor="#FFFFFF"
+        android:textSize="16dp" />
+
+    <ImageButton
+        android:id="@+id/Mutton"
+        android:layout_width="170dp"
+        android:layout_height="111dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="40dp"
+
+        android:src="@drawable/mutton" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+
+        android:text="MUTTON "
+        android:textColor="#FFFFFF"
+        android:textSize="16dp" />
+
+    <ImageButton
+        android:id="@+id/prawn"
+        android:layout_marginTop="40dp"
+
+        android:layout_width="170dp"
+        android:layout_height="111dp"
+        android:layout_marginLeft="30dp"
+        android:src="@drawable/pra" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+
+        android:text="PRAWN "
+        android:textColor="#FFFFFF"
+        android:textSize="16dp" />
+
+
+
+</LinearLayout>
+

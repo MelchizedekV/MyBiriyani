@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+    android:background="@drawable/backgr"
+        >
+
+        <ImageView
+            android:id="@+id/onekg"
+            android:layout_width="170dp"
+            android:layout_height="111dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/cone"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+
+            android:text="CHICKEN ONE KG"
+            android:textColor="#FFFFFF"
+            android:textSize="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+
+        android:text="RS.120"
+        android:textColor="#FFFFFF"
+        android:textSize="16dp" />
+        <Button
+            android:id="@+id/order"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:text="ORDER"
+            android:textColor="#000000"
+            android:textSize="16dp"
+            android:textStyle="bold"
+
+            />
+    <ImageView
+        android:id="@+id/halfkg"
+        android:layout_width="170dp"
+        android:layout_height="111dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/half"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+
+        android:text="CHICKEN HALF KG"
+        android:textColor="#FFFFFF"
+        android:textSize="16dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+
+        android:text="RS.70"
+        android:textColor="#FFFFFF"
+        android:textSize="16dp" />
+
+    <Button
+        android:id="@+id/order2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:text="ORDER"
+        android:textColor="#000000"
+        android:textSize="16dp"
+        android:textStyle="bold"
+
+        />
+
+    <ImageButton
+        android:id="@+id/cart"
+        android:layout_width="81dp"
+        android:layout_height="71dp"
+        android:layout_gravity="center|bottom"
+        android:src="@drawable/cart" />
+
+    </LinearLayout>
+

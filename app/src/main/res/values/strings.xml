@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MyBiriyani</string>
+
+
+    <string name="facebook_application_id" translatable="false">250382115508659</string>
+    <string name="facebook_login_protocol_scheme" translatable="false">fb250382115508659 </string>
+
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="invalid_email">your email is invalid</string>
+    <string name="invalid_password">your password is too short</string>
+    <string name="incorrect_password">your password is not correct</string>
+    <string name="field_required">please fill the fields</string>
+
+</resources>
